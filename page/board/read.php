@@ -50,7 +50,7 @@
 			<div class="dap_to comt_edit"><?php echo $reply['content']; ?></div>
 			<div class="rep_me dap_to"><?php echo $reply['date']; ?></div>
 			<div class="rep_me rep_menu">
-				<a class="dat_dat_bt" href="/page/board/rereply.php?idx=<?php echo $bno; ?>">댓글</a>
+				<a class="dat_dat_bt" href="/page/board/rereply.php?idx=<?php echo $bno; ?>&re_idx=<?php echo $reply['re_idx']?>">댓글</a>
 				<a class="dat_delete_bt" href="#">삭제</a>
 			</div>
 		</div>

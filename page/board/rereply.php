@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class= "dap_ins">
-    <form action="rereply_ok.php?idx=<?php echo $_GET['idx']; ?>" method="post">
+    <form action="rereply_ok.php?idx=<?php echo $_GET['idx']; ?>&re_idx=<?php echo $_GET['re_idx'];?>" method="post">
 		<div style="margin-top:10px;">
 			<input type="text" name="dat_user" id="dat_user" class="dat_user" size="15" placeholder="아이디"/>
 			<input type="password" name="dat_pw" id="dat_pw" class="dat_pw" size="15" placeholder="비밀번호"/>
